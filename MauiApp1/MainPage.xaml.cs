@@ -1,5 +1,7 @@
 ﻿using System.Drawing;
+using Android.Content;
 using Android.Util;
+using Android.Views;
 using AbsoluteLayout = Microsoft.Maui.Controls.AbsoluteLayout;
 using Color = Microsoft.Maui.Graphics.Color;
 using Microsoft.Maui.Layouts;
@@ -18,6 +20,8 @@ public partial class MainPage : ContentPage
         {15, 285, 8, 43},
         {-20, 320, 43, 8}
     };
+
+    private string orientation;
 
     private int[,] num_coords =
     {
@@ -48,6 +52,12 @@ public partial class MainPage : ContentPage
 
     bool OnTimer()
     {
+        if (DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString() != orientation)
+        {
+            ChangeOrientation(DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString());
+            orientation = DeviceDisplay.Current.MainDisplayInfo.Orientation.ToString();
+        }
+
         DateTime dateTime = DateTime.Now;
         
         SetBox(0, dateTime.Hour / 10);
@@ -57,6 +67,15 @@ public partial class MainPage : ContentPage
         SetBox(4, dateTime.Second / 10);
         SetBox(5, dateTime.Second % 10);
         return true;
+    }
+
+    void ChangeOrientation(string state)
+    {
+        var mod = 1;
+        if (state == "Landscape")
+        {
+            mod = 1;
+        }
     }
 
     private void InitNums()
