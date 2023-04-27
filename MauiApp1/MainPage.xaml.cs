@@ -38,6 +38,7 @@ public partial class MainPage : ContentPage
     };
 
     private BoxView[,] numbers = new BoxView[6,7];
+    private BoxView[,] dots = new BoxView[6,2];
 
     
 
@@ -75,6 +76,35 @@ public partial class MainPage : ContentPage
         if (state == "Landscape")
         {
             mod = 1;
+            for (int k = 0; k < 6; k++)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    var chapter = Math.Floor((double)(k / 2));
+                    absoluteLayout.SetLayoutBounds(numbers[k, i], new Rect(_number[i, 0] + k * 63 + chapter * 10 + 200, _number[i, 1] - 200 ,_number[i, 2], _number[i, 3]));
+                    if (k % 2 == 0 && k != 0 && i == 0)
+                    {
+                        absoluteLayout.SetLayoutBounds(dots[k, 0], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 200, 260 - 200, 8, 8));
+                        absoluteLayout.SetLayoutBounds(dots[k, 1], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 200, 310 - 200, 8, 8));
+                    }
+                }
+            }
+        }
+        else
+        {
+            for (int k = 0; k < 6; k++)
+            {
+                for (int i = 0; i < 7; i++)
+                {
+                    var chapter = Math.Floor((double)(k / 2));
+                    absoluteLayout.SetLayoutBounds(numbers[k, i], new Rect(_number[i, 0] + k * 63 + chapter * 10, _number[i, 1] ,_number[i, 2], _number[i, 3]));
+                    if (k % 2 == 0 && k != 0 && i == 0)
+                    {
+                        absoluteLayout.SetLayoutBounds(dots[k, 0], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16, 260, 8, 8));
+                        absoluteLayout.SetLayoutBounds(dots[k, 1], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16, 310, 8, 8));
+                    }
+                }
+            }
         }
     }
 
@@ -96,6 +126,8 @@ public partial class MainPage : ContentPage
                     absoluteLayout.Children.Add(dot2);
                     absoluteLayout.SetLayoutBounds(dot1, new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16, 260, 8, 8));
                     absoluteLayout.SetLayoutBounds(dot2, new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16, 310, 8, 8));
+                    dots[k, 0] = dot1;
+                    dots[k, 1] = dot2;
                 }
 
                 absoluteLayout.SetLayoutBounds(x, new Rect(_number[i, 0] + k * 63 + chapter * 10, _number[i, 1] ,_number[i, 2], _number[i, 3]));
