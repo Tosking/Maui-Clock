@@ -81,11 +81,11 @@ public partial class MainPage : ContentPage
                 for (int i = 0; i < 7; i++)
                 {
                     var chapter = Math.Floor((double)(k / 2));
-                    absoluteLayout.SetLayoutBounds(numbers[k, i], new Rect(_number[i, 0] + k * 63 + chapter * 10 + 200, _number[i, 1] - 200 ,_number[i, 2], _number[i, 3]));
+                    absoluteLayout.SetLayoutBounds(numbers[k, i], new Rect(_number[i, 0] + k * 63 + chapter * 10 + 250, _number[i, 1] - 180 ,_number[i, 2], _number[i, 3]));
                     if (k % 2 == 0 && k != 0 && i == 0)
                     {
-                        absoluteLayout.SetLayoutBounds(dots[k, 0], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 200, 260 - 200, 8, 8));
-                        absoluteLayout.SetLayoutBounds(dots[k, 1], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 200, 310 - 200, 8, 8));
+                        absoluteLayout.SetLayoutBounds(dots[k, 0], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 250, 260 - 180, 8, 8));
+                        absoluteLayout.SetLayoutBounds(dots[k, 1], new Rect(_number[i, 0] + k * 63 + chapter * 10 - 16 + 250, 310 - 180, 8, 8));
                     }
                 }
             }

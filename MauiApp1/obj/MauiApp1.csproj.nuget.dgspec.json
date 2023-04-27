@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MauiApp1.csproj": {}
+    "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MauiApp1.csproj": {}
   },
   "projects": {
-    "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MauiApp1.csproj": {
+    "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MauiApp1.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MauiApp1.csproj",
+        "projectUniqueName": "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MauiApp1.csproj",
         "projectName": "MauiApp1",
-        "projectPath": "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MauiApp1.csproj",
+        "projectPath": "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MauiApp1.csproj",
         "packagesPath": "/home/taskavan/.nuget/packages/",
-        "outputPath": "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/obj/",
+        "outputPath": "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/obj/",
         "projectStyle": "PackageReference",
         "crossTargeting": true,
         "configFilePaths": [
@@ -65,7 +65,7 @@
             },
             "Microsoft.Maui.Graphics": {
               "target": "Package",
-              "version": "[7.0.59, )",
+              "version": "[7.0.81, )",
               "autoReferenced": true
             },
             "Xamarin.Android.Glide": {

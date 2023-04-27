@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "19h8rXezViEJiEXVN/ZPKuoGLP0eNlaWvTswjYIJtKaVo5w6fgterFzfn4Dyrx/CM43dGHbndTl5MRpb4tcjpA==",
+  "dgSpecHash": "S4TRtl7ud/mfATOr/W+oFekPNFgJNXUtwIPVBu0IHscsQmbac5BODaGQNW7H5hFiGN426XjTtdDUOgV36kulnQ==",
   "success": true,
-  "projectFilePath": "/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MauiApp1.csproj",
+  "projectFilePath": "/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MauiApp1.csproj",
   "expectedPackageFiles": [
     "/home/taskavan/.nuget/packages/googlegson/2.9.1.1/googlegson.2.9.1.1.nupkg.sha512",
     "/home/taskavan/.nuget/packages/microsoft.extensions.configuration/7.0.0/microsoft.extensions.configuration.7.0.0.nupkg.sha512",
@@ -14,7 +14,7 @@
     "/home/taskavan/.nuget/packages/microsoft.extensions.logging.debug/7.0.0/microsoft.extensions.logging.debug.7.0.0.nupkg.sha512",
     "/home/taskavan/.nuget/packages/microsoft.extensions.options/7.0.0/microsoft.extensions.options.7.0.0.nupkg.sha512",
     "/home/taskavan/.nuget/packages/microsoft.extensions.primitives/7.0.0/microsoft.extensions.primitives.7.0.0.nupkg.sha512",
-    "/home/taskavan/.nuget/packages/microsoft.maui.graphics/7.0.59/microsoft.maui.graphics.7.0.59.nupkg.sha512",
+    "/home/taskavan/.nuget/packages/microsoft.maui.graphics/7.0.81/microsoft.maui.graphics.7.0.81.nupkg.sha512",
     "/home/taskavan/.nuget/packages/xamarin.android.glide/4.13.2.2/xamarin.android.glide.4.13.2.2.nupkg.sha512",
     "/home/taskavan/.nuget/packages/xamarin.android.glide.annotations/4.13.2.2/xamarin.android.glide.annotations.4.13.2.2.nupkg.sha512",
     "/home/taskavan/.nuget/packages/xamarin.android.glide.disklrucache/4.13.2.2/xamarin.android.glide.disklrucache.4.13.2.2.nupkg.sha512",

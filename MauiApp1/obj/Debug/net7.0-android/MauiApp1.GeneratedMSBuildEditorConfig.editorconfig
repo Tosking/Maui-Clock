@@ -12,33 +12,33 @@ build_property.EnableSingleFileAnalyzer = true
 build_property.EnableTrimAnalyzer = false
 build_property.IncludeAllContentForSelfExtract = 
 build_property.RootNamespace = MauiApp1
-build_property.ProjectDir = /home/taskavan/.RiderProjects/MauiApp1/MauiApp1/
+build_property.ProjectDir = /home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/
 
-[/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/App.xaml]
+[/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/App.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.App.xaml
 build_metadata.AdditionalFiles.TargetPath = App.xaml
 build_metadata.AdditionalFiles.RelativePath = App.xaml
 
-[/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/AppShell.xaml]
+[/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/AppShell.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.AppShell.xaml
 build_metadata.AdditionalFiles.TargetPath = AppShell.xaml
 build_metadata.AdditionalFiles.RelativePath = AppShell.xaml
 
-[/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/MainPage.xaml]
+[/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/MainPage.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.MainPage.xaml
 build_metadata.AdditionalFiles.TargetPath = MainPage.xaml
 build_metadata.AdditionalFiles.RelativePath = MainPage.xaml
 
-[/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/Resources/Styles/Colors.xaml]
+[/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/Resources/Styles/Colors.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Colors.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Colors.xaml
 build_metadata.AdditionalFiles.RelativePath = Resources/Styles/Colors.xaml
 
-[/home/taskavan/.RiderProjects/MauiApp1/MauiApp1/Resources/Styles/Styles.xaml]
+[/home/taskavan/.RiderProjects/Maui-Clock/MauiApp1/Resources/Styles/Styles.xaml]
 build_metadata.AdditionalFiles.GenKind = Xaml
 build_metadata.AdditionalFiles.ManifestResourceName = MauiApp1.Resources.Styles.Styles.xaml
 build_metadata.AdditionalFiles.TargetPath = Resources/Styles/Styles.xaml

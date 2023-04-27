@@ -3,7 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.MainPage">
 
-    <AbsoluteLayout Margin="40" x:Name="absoluteLayout">
+    <AbsoluteLayout Margin="40" x:Name="absoluteLayout"
+                    BackgroundColor="Blue">
         
     
     </AbsoluteLayout>
